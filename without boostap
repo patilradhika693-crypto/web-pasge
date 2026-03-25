@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form class="form-box">
+        <h2>Login Form</h2>
+
+        <input type="text"
+               placeholder="Enter your username"
+               pattern="^[A-Za-z\s]+$"
+               title="Invalid"
+               required>
+               
+        <input type="email"
+               placeholder="Enter your email id"
+               required>
+
+        <input type="password"
+               placeholder="Enter your password"
+               required>
+
+        <input type="tel"
+               placeholder="Enter your number"
+               pattern="[0-9]{10}"
+               title="Invalid"
+               required>
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
